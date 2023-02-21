@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		CE06160C29A4CD3600463CF8 /* FlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06160B29A4CD3600463CF8 /* FlagApp.swift */; };
-		CE06160E29A4CD3600463CF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06160D29A4CD3600463CF8 /* ContentView.swift */; };
 		CE06161029A4CD3700463CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE06160F29A4CD3700463CF8 /* Assets.xcassets */; };
 		CE06161329A4CD3700463CF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE06161229A4CD3700463CF8 /* Preview Assets.xcassets */; };
+		CE06161A29A4CDF500463CF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06161929A4CDF500463CF8 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE06160829A4CD3600463CF8 /* Flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE06160B29A4CD3600463CF8 /* FlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagApp.swift; sourceTree = "<group>"; };
-		CE06160D29A4CD3600463CF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE06160F29A4CD3700463CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE06161229A4CD3700463CF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE06161929A4CDF500463CF8 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../../.Trash/ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				CE06160B29A4CD3600463CF8 /* FlagApp.swift */,
-				CE06160D29A4CD3600463CF8 /* ContentView.swift */,
+				CE06161929A4CDF500463CF8 /* ContentView.swift */,
 				CE06160F29A4CD3700463CF8 /* Assets.xcassets */,
 				CE06161129A4CD3700463CF8 /* Preview Content */,
 			);
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE06160E29A4CD3600463CF8 /* ContentView.swift in Sources */,
 				CE06160C29A4CD3600463CF8 /* FlagApp.swift in Sources */,
+				CE06161A29A4CDF500463CF8 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
